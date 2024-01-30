@@ -1,1 +1,1 @@
-/VelocityEvent.github.io
+VelocityEvent.github.io
