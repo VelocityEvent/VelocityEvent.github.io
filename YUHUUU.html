@@ -1,0 +1,812 @@
+<!doctype html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1240,shrink-to-fit=no">
+    <meta name="shopee:git-sha" content="4de2707ff25e4d5ac9633b1a427f018772c7c069">
+    <meta name="shopee:version" content="pc-v5.61.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/pcmall-assets/assets/icon_favicon_1_32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/pcmall-assets/assets/icon_favicon_1_96.png">
+    <link rel="preload"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7317a03dc6dd3324.css" as="style"
+        data-modern="true">
+    <link rel="preload"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.227c6e3c1bdc6350.css" as="style"
+        data-modern="true">
+    <link rel="modulepreload"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.902e0ef0a1452cc3.js"
+        data-modern="true">
+    <link rel="modulepreload"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7e78c1164311d8d2.js"
+        data-modern="true">
+    <link rel="modulepreload"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.e9b98037bb78a8bd.js"
+        data-modern="true">
+    <script data-webfe="config">
+        /** actually app id */
+        window.__PAGE_ID__ = 1;
+        window.__APP_ID__ = 1;
+        window.__LOCALE__ = 'ID';
+        window.__ENV__ = 'live';
+        window.__META_APP_DETAILS__ = {
+            "sentryDsn": "https://582bca07a010467e9836b96b9bd739e5@o468184.ingest.sentry.io/5495707",
+            "sentryDsn-sap-web-sdk": "https://330029e340266d72479a9e96074446a9@o468184.ingest.sentry.io/4505923044048896"
+        };
+        window.__ASSETS__ = {
+            "DL_ENABLED_MALL_REGIONS": ["SG", "MY", "ID", "TH", "VN", "PH", "TW"],
+            "FESTIVAL_SKIN_V2": {
+                "data": null,
+                "error": null,
+                "error_messages": null,
+                "error_msg": null
+            },
+            "MART_CONFIG": {
+                "shop": {
+                    "shopid": 65323877,
+                    "username": "smart_byshopee"
+                },
+                "header": {
+                    "bg_color": "#066BC8"
+                }
+            },
+            "PAGE_MANIFEST": {
+                "pcmall-addondeal-aod": "https://deo.shopeemobile.com/shopee/stm-sg-live/13684/asset-ID-live.af771fd3114ebd7c809d96df9d94d0f7.json",
+                "pcmall-addondeal-pwg": "https://deo.shopeemobile.com/shopee/stm-sg-live/16838/asset-ID-live.bce5ecc5addb4b495dfe2f23a716c01f.json",
+                "pcmall-addondeal-pwp": "https://deo.shopeemobile.com/shopee/stm-sg-live/16709/asset-ID-live.6c21725ff5d852b8914a7921f12de422.json",
+                "pcmall-anticrawler": "https://deo.shopeemobile.com/shopee/stm-sg-live/50819/asset-ID-live.4c1c81c86816fc7be5800d0709b92220.json",
+                "pcmall-antifrauderror": "https://deo.shopeemobile.com/shopee/stm-sg-live/47170/asset-ID-live.1653a83926eb49ecaf2e40013f8ed65a.json",
+                "pcmall-antifraudivs": "https://deo.shopeemobile.com/shopee/stm-sg-live/55230/asset-ID-live.9cdad10613ed764e167a9b45b123ff2f.json",
+                "pcmall-antifraudverifyemaillink": "https://deo.shopeemobile.com/shopee/stm-sg-live/55084/asset-ID-live.c0e5c8123c29c96979a78cc48ad96952.json",
+                "pcmall-antifraudverifyemaillinkreceiver": {
+                    "version": 1,
+                    "assets": {},
+                    "metaAppDetails": {},
+                    "legacy": {
+                        "js": ["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.1dfa51e717bde247bf37.legacy.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/455.8ccb04afe6b1dc3cbbe8.legacy.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/974.f586da6bbf93eadc7d5a.legacy.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/333.4751b24852acd70cdc0f.legacy.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/810.de519c29058f81b21864.legacy.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/781.0e642d1d7f16d845cee6.legacy.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.84702a511c0e795d2454.legacy.js"],
+                        "css": ["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.2d6d45d1b72791046af5.legacy.css"]
+                    },
+                    "modern": {
+                        "js": ["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.7a3354b284db30839ffb.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/455.b50d5976284753c7d948.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/685.67237e04acd9afd3ec61.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/974.ae2d57a0f5bebbfff7f1.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/333.60796e14e99ac112b150.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/769.a9204d8096ff49666c83.js", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.17935ee68a84d1055749.js"],
+                        "css": ["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.7eeb5635788e67e308b0.css"]
+                    }
+                },
+                "pcmall-antifraudverifylink": "https://deo.shopeemobile.com/shopee/stm-sg-live/54844/asset-ID-live.d1e83383819744ce97669a0cc3246f07.json",
+                "pcmall-antifraudverifylinkreceiver": "https://deo.shopeemobile.com/shopee/stm-sg-live/55429/asset-ID-live.498687153109dbb468e9393889e3f6a2.json",
+                "pcmall-antifraudverifyqr": "https://deo.shopeemobile.com/shopee/stm-sg-live/54899/asset-ID-live.d62c69fba57337dee9e6ebf739840027.json",
+                "pcmall-bundledeal": "https://deo.shopeemobile.com/shopee/stm-sg-live/6955/asset-ID-live.d2bd8a2881830a9183d760e8b34f6a06.json",
+                "pcmall-buyerrating": "https://deo.shopeemobile.com/shopee/stm-sg-live/51388/asset-ID-live.ed18dbb9c71df74661fcd3a473961ee2.json",
+                "pcmall-cancellation": "https://deo.shopeemobile.com/shopee/stm-sg-live/45062/asset-ID-live.9e730b4d122f5c6755fa744a6cbbefd2.json",
+                "pcmall-captcha": "https://deo.shopeemobile.com/shopee/stm-sg-live/52013/asset-ID-live.ad5a5d5bb6087f19987a2af46571d4fd.json",
+                "pcmall-cart": "https://deo.shopeemobile.com/shopee/stm-sg-live/2360/asset-ID-live.521ae4cc2079abcb10a007d1431f85ed.json",
+                "pcmall-cartsellervoucherspopup": "https://deo.shopeemobile.com/shopee/stm-sg-live/43324/asset-ID-live.f5bf603a0f99a47b69130f027997f589.json",
+                "pcmall-casedispute": "https://deo.shopeemobile.com/shopee/stm-sg-live//30266/asset-ID-live.57a9613831c5a62f6714207b153eb783.json",
+                "pcmall-categoryfe": "https://deo.shopeemobile.com/shopee/stm-sg-live/57645/asset-ID-live.6b2da14cf01315978034afc47a2edd81.json",
+                "pcmall-categorypage": "https://deo.shopeemobile.com/shopee/stm-sg-live/25514/asset-ID-live.ac0d71508acd57d77898c07d0d80628d.json",
+                "pcmall-checkout": "https://deo.shopeemobile.com/shopee/stm-sg-live/28149/asset-ID-live.cd58766f92774dfeaade7b50f57865eb.json",
+                "pcmall-coins": "https://deo.shopeemobile.com/shopee/stm-sg-live/32478/asset-ID-live.759a85b06ddc3f79af16104728ac8197.json",
+                "pcmall-coinsrewardpage": "https://deo.shopeemobile.com/shopee/stm-sg-live/4698/asset-ID-live.a31c277a84b40ee3100eb4c35a6fbddc.json",
+                "pcmall-collectionfe-allcampaigns": "https://deo.shopeemobile.com/shopee/stm-sg-live/54465/asset-ID-live.39fa3cb02002ec73da176bdb1a671e3a.json",
+                "pcmall-collectionfe-entry-clp": "https://deo.shopeemobile.com/shopee/stm-sg-live/53908/asset-ID-live.813477b87408adb7cd2d26a552e39745.json",
+                "pcmall-collectionfe-product-clp": "https://deo.shopeemobile.com/shopee/stm-sg-live/53694/asset-ID-live.263b19fd7bb9240c08340d474dc41aeb.json",
+                "pcmall-collectionfe-productcollection": "https://deo.shopeemobile.com/shopee/stm-sg-live/53500/asset-ID-live.f1d0ea12b57462c19f978db7cd3d36a7.json",
+                "pcmall-collectionfe-shop-clp": "https://deo.shopeemobile.com/shopee/stm-sg-live/53793/asset-ID-live.72b4f1040e4ac34b90e5b8ade5f628ac.json",
+                "pcmall-crmpage": "https://deo.shopeemobile.com/shopee/stm-sg-live/39847/asset-ID-live.fbfe6643819684a96176f984e2a7cc2a.json",
+                "pcmall-dailycheckin": ["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dailycheckin/main.f26f8d9a517dbe321c5f.css", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dailycheckin/main.70613cebaa6326461115.js"],
+                "pcmall-dd-home-module": "https://deo.shopeemobile.com/shopee/stm-sg-live/52904/asset-ID-live.d4c3bd37d0f7e9a8e61a6c077cd4e79d.json",
+                "pcmall-dd-landing-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/52760/asset-ID-live.a5ae24b798870e72f0c5056081814e64.json",
+                "pcmall-ebcomponents-mb": "https://deo.shopeemobile.com/shopee/stm-sg-live/34452/asset-ID-live.7c32c56430732e2579e37bcd6992e285.json",
+                "pcmall-ebcomponents-quiz": "https://deo.shopeemobile.com/shopee/stm-sg-live/30945/asset-ID-live.d41cc550a3b4f5c5cda4cd22b23e126f.json",
+                "pcmall-ebcomponents-voting": "https://deo.shopeemobile.com/shopee/stm-sg-live/32093/asset-ID-live.455e1b51d5f249487c3dc9db573a5430.json",
+                "pcmall-flashsale": "https://deo.shopeemobile.com/shopee/stm-sg-live/7304/asset-ID-live.182057070dc6dcdf9384fe917e506c48.json",
+                "pcmall-flashsale-entry": "https://deo.shopeemobile.com/shopee/stm-sg-live/7438/asset-ID-live.42d018174d615d995716e1a8b8547323.json",
+                "pcmall-flashsale-mart-entry": "https://deo.shopeemobile.com/shopee/stm-sg-live/7571/asset-ID-live.d7643ec5093ca0697e628f96077fa686.json",
+                "pcmall-flashsale-mart-landing": "https://deo.shopeemobile.com/shopee/stm-sg-live/7633/asset-ID-live.fb4384aa8425539a69b05e60b873305f.json",
+                "pcmall-flashsalesoldout": "https://deo.shopeemobile.com/shopee/stm-sg-live/31130/asset-ID-live.57a137c4103449f24a9e79d58ead9398.json",
+                "pcmall-formmanagement": "https://deo.shopeemobile.com/shopee/stm-sg-live/30653/asset-ID-live.39ef58c9a72da98ff0834d2ebde798d5.json",
+                "pcmall-group": null,
+                "pcmall-history": null,
+                "pcmall-homepage": "https://deo.shopeemobile.com/shopee/stm-sg-live/23045/asset-ID-live.4448bc66a7336cec6a1520537e8d572e.json",
+                "pcmall-homepagefe": "https://deo.shopeemobile.com/shopee/stm-sg-live/59963/asset-ID-live.16423cd4382ca75fd8b4f1d94f72eb17.json",
+                "pcmall-intermediate": "https://deo.shopeemobile.com/shopee/stm-sg-live/webfe-rp-assets/22387/asset-ID-live.e03058216debe98957a13058fd654306.json",
+                "pcmall-leaderboard": null,
+                "pcmall-mallbrands": "https://deo.shopeemobile.com/shopee/stm-sg-live/39749/asset-ID-live.dcbb85df9084cba9fab0e2cf8d1bc9f6.json",
+                "pcmall-malllanding": "https://deo.shopeemobile.com/shopee/stm-sg-live/39651/asset-ID-live.53c34b32ebce9ca1e1d84209f296168e.json",
+                "pcmall-mart-categorylandingpage": "https://deo.shopeemobile.com/shopee/stm-sg-live/37143/asset-ID-live.b761a702e626081edcc1c7feca1d0a26.json",
+                "pcmall-mart-dealspage": "https://deo.shopeemobile.com/shopee/stm-sg-live/37336/asset-ID-live.259cb7fd4ecd2a02b0424c8b0029adfe.json",
+                "pcmall-mart-homepage": "https://deo.shopeemobile.com/shopee/stm-sg-live/37445/asset-ID-live.6a931174a6d6b4a6d2497d38d6c18aba.json",
+                "pcmall-mart-voucherlandingpage": "https://deo.shopeemobile.com/shopee/stm-sg-live/42657/asset-ID-live.6beb4de5e5bdeffe13c0b0d5350b3dcd.json",
+                "pcmall-microsite": "https://deo.shopeemobile.com/shopee/stm-sg-live/24481/asset-ID-live.290cc31bc28be0e177281a8f8f620a01.json",
+                "pcmall-micrositefe": "https://deo.shopeemobile.com/shopee/stm-sg-live/60536/asset-ID-live.d5e2617f3ad477e8d6ac712d209d17dc.json",
+                "pcmall-myratingpc": "https://deo.shopeemobile.com/shopee/stm-sg-live/42463/asset-ID-live.06f16a132fce3a35d2da9ba237064cab.json",
+                "pcmall-orderdetail": "https://deo.shopeemobile.com/shopee/stm-sg-live/47368/asset-ID-live.79a3a779c03d2c767648916d2609aeec.json",
+                "pcmall-orderlist": "https://deo.shopeemobile.com/shopee/stm-sg-live/20180/asset-ID-live.af78d4b5329ac75e450e72224b2837af.json",
+                "pcmall-paymentfe": "https://deo.shopeemobile.com/shopee/stm-sg-live/2260/asset-ID-live.77094fe07e4d928789bdd1d2bbbc9bbc.json",
+                "pcmall-pcpagevoucherdetail": "https://deo.shopeemobile.com/shopee/stm-sg-live/20918/asset-ID-live.a615af065290fc440eca9e9bdffa3e8c.json",
+                "pcmall-pick": null,
+                "pcmall-productdetailspage": "https://deo.shopeemobile.com/shopee/stm-sg-live/32952/asset-ID-live.e41e06828288d02317c4102ef5109c37.json",
+                "pcmall-productrating": "https://deo.shopeemobile.com/shopee/stm-sg-live/41983/asset-ID-live.48e65601b72353398307d9570981274e.json",
+                "pcmall-productshopvoucher": "https://deo.shopeemobile.com/shopee/stm-sg-live/22776/asset-ID-live.399f99992f797f2bf6fac052a69494b2.json",
+                "pcmall-productshopvouchers": "https://deo.shopeemobile.com/shopee/stm-sg-live/22685/asset-ID-live.295b90aaedf0284fad0f8486794182c3.json",
+                "pcmall-ratingorder": "https://deo.shopeemobile.com/shopee/stm-sg-live/51494/asset-ID-live.883b1bef75d893b34d35368af1b1aac1.json",
+                "pcmall-rcmd-cart-fsp-module": "https://deo.shopeemobile.com/shopee/stm-sg-live/50735/asset-ID-live.8e36e438495b31165a374954a108994c.json",
+                "pcmall-rcmd-cart-ymal": "https://deo.shopeemobile.com/shopee/stm-sg-live/22964/asset-ID-live.bca22ed0605b43e98be2a916ff59db16.json",
+                "pcmall-rcmd-cart-ymal-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/24772/asset-ID-live.0cf0e0c6fa36fa9269519ed1b31b8ee9.json",
+                "pcmall-rcmd-flash-sale-sold-out-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/33309/asset-ID-live.d973acb84e49a94e439bd0d92a293bea.json",
+                "pcmall-rcmd-fsp-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/42933/asset-ID-live.edea2a495504cc9996f42017bb37c819.json",
+                "pcmall-rcmd-home-top-products-module": "https://deo.shopeemobile.com/shopee/stm-sg-live/40399/asset-ID-live.c6feb53bdf9ae5d546cc1db54aff9778.json",
+                "pcmall-rcmd-home-top-products-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/40488/asset-ID-live.9a9f18e42b511061ee59406e51ee8b5e.json",
+                "pcmall-rcmd-mall-just-for-you-module": "https://deo.shopeemobile.com/shopee/stm-sg-live/53132/asset-ID-live.d3d0fd2c2b2e73fa175e24d8294e7616.json",
+                "pcmall-rcmd-mall-just-for-you-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/53046/asset-ID-live.e1afddbf5f8abae0de7a7ee9a6e9d108.json",
+                "pcmall-rcmd-mall-popular-products-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/53218/asset-ID-live.37f23b8bf954eb7072614e68ac97d952.json",
+                "pcmall-rcmd-mart-buy-again-module": "https://deo.shopeemobile.com/shopee/stm-sg-live/39078/asset-ID-live.f2866728460c1ad9835b40fa2ae3bbc2.json",
+                "pcmall-rcmd-mart-buy-again-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/39297/asset-ID-live.8b5549bb3e096471a892f3eda0b2b82f.json",
+                "pcmall-rcmd-mart-recommendation-module": "https://deo.shopeemobile.com/shopee/stm-sg-live/38595/asset-ID-live.cbdf7bd9d1234afe08ff8022506046f4.json",
+                "pcmall-rcmd-mart-recommendation-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/38496/asset-ID-live.d1752bbbccd8f25c6233ec929bda99cf.json",
+                "pcmall-rcmd-pdp-ftss": "https://deo.shopeemobile.com/shopee/stm-sg-live/33395/asset-ID-live.66d24037d54c0d50e43cac05771dc404.json",
+                "pcmall-rcmd-pdp-ftss-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/40693/asset-ID-live.6ac8b5f49b9c767b156ae60b924235b4.json",
+                "pcmall-rcmd-pdp-ymal": "https://deo.shopeemobile.com/shopee/stm-sg-live/33497/asset-ID-live.9246656ef543b73246a36f830b507845.json",
+                "pcmall-rcmd-pdp-ymal-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/41069/asset-ID-live.2b7dc7a469d1d9d2e4f3307e5227e4f4.json",
+                "pcmall-recommendcartvoucherspc": "https://deo.shopeemobile.com/shopee/stm-sg-live/21934/asset-ID-live.85330d1a85d17fbe765265c80b0b657d.json",
+                "pcmall-recommendshopvoucherlistpc": "https://deo.shopeemobile.com/shopee/stm-sg-live/21836/asset-ID-live.a29fb6656b2a617ae406f9ff79254d81.json",
+                "pcmall-return": "https://deo.shopeemobile.com/shopee/stm-sg-live/30560/asset-ID-live.3729b319a751ec1718f18487b9f4f73d.json",
+                "pcmall-returnevidence": "https://deo.shopeemobile.com/shopee/stm-sg-live/34267/asset-ID-live.de8a6fc6fc4e7a184dc8358d20ec33ef.json",
+                "pcmall-returnrequest": "https://deo.shopeemobile.com/shopee/stm-sg-live/59664/asset-ID-live.df41b408124cbfda3c2731993b058c1c.json",
+                "pcmall-sclp": "https://deo.shopeemobile.com/shopee/stm-sg-live/webfe-rp-assets/15239/asset-ID-live.987041261d76119910a5e85c02c4c8b4.json",
+                "pcmall-search-bar": null,
+                "pcmall-search-mart-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/60358/asset-ID-live.a7040a9018ca3c70c0583ffb02f737fa.json",
+                "pcmall-search-result-page": null,
+                "pcmall-search-srp-user": "https://deo.shopeemobile.com/shopee/stm-sg-live/44187/asset-ID-live.c23b5c5098527aa03c6cfe5ca237ed8f.json",
+                "pcmall-search-user-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/44375/asset-ID-live.485323aa7471faf1df26b39a77ed3b1e.json",
+                "pcmall-sellervoucher": "https://deo.shopeemobile.com/shopee/stm-sg-live/22593/asset-ID-live.5fbfb518361c70bd757f179f0a44b8e0.json",
+                "pcmall-sellervoucherlist": "https://deo.shopeemobile.com/shopee/stm-sg-live/22509/asset-ID-live.764bd77c9fd26143e6d0f33990af72bd.json",
+                "pcmall-seo-brand-page": null,
+                "pcmall-shopcustompage": "https://deo.shopeemobile.com/shopee/stm-sg-live//34072/asset-ID-live.b617fbed5ec254f511bbdab49c948828.json",
+                "pcmall-shopmicrofe": "https://deo.shopeemobile.com/shopee/stm-sg-live/4785/asset-ID-live.3fbea998a413a82268cec9c20644a62b.json",
+                "pcmall-shoprating": "https://deo.shopeemobile.com/shopee/stm-sg-live/23325/asset-ID-live.c032a5f6abd7905bfd72ca70ba432df3.json",
+                "pcmall-ssrendtoend": null,
+                "pcmall-streak": null,
+                "pcmall-useraccount": "https://deo.shopeemobile.com/shopee/stm-sg-live/27949/asset-ID-live.c08a419b18a15c1396dff5b278ca5840.json",
+                "pcmall-voucherlandingpagevoucher": "https://deo.shopeemobile.com/shopee/stm-sg-live/43427/asset-ID-live.0d480eef9ca3ac472bd74f1f00470d8f.json",
+                "pcmall-vouchermarthomepage": "https://deo.shopeemobile.com/shopee/stm-sg-live/47960/asset-ID-live.9f3793a4ba3100edd038feaa9688e949.json",
+                "pcmall-vouchermartlandingpage": "https://deo.shopeemobile.com/shopee/stm-sg-live/49213/asset-ID-live.d0121c755896d9cd66be55d67a2bb05c.json",
+                "pcmall-voucherproductfocusedui": "https://deo.shopeemobile.com/shopee/stm-sg-live/22199/asset-ID-live.038d1b062b11f9eaedb49faea202a7f5.json",
+                "pcmall-voucherwallet": "https://deo.shopeemobile.com/shopee/stm-sg-live/21750/asset-ID-live.547a80364cc68d19b9769eead1c1231b.json",
+                "pcmall-voucherwalletmodalpc": "https://deo.shopeemobile.com/shopee/stm-sg-live/22109/asset-ID-live.2c05719885aa3c49093877a849ca9b98.json",
+                "pcmall-voucherwalletvoucherpreview": "https://deo.shopeemobile.com/shopee/stm-sg-live/23587/asset-ID-live.4f263fe66aeb0ef866213863ba8a6f00.json",
+                "user-microfe-account-desktop-demo": "https://deo.shopeemobile.com/shopee/stm-sg-live/48036/asset-ID-live.5d6c0b75f8146077c27fa25043f6f575.json",
+                "user-microfe-account-desktop-demo-2": "https://deo.shopeemobile.com/shopee/stm-sg-live/50146/asset-ID-live.72edcbd0ec7f4e6b283e2a9c99e01628.json",
+                "user-microfe-identity-desktop-demo-page": "https://deo.shopeemobile.com/shopee/stm-sg-live/49860/asset-ID-live.a69d891cecebf0780b668ea43437b3ac.json",
+                "user-microfe-identity-desktop-demo-page-2": "https://deo.shopeemobile.com/shopee/stm-sg-live/49955/asset-ID-live.e270ebc844018f07a025377743d9cde6.json",
+                "user-microfe-identity-desktop-noti-email-subscription-center": "https://deo.shopeemobile.com/shopee/stm-sg-live/51014/asset-ID-live.6115af718aa5b272ac6d83ea04417e76.json"
+            },
+            "PLATFORM_STATIC_TOGGLE": {
+                "R17": 100,
+                "USE_LATEST_SFU": 100
+            },
+            "TRANSIFY_COLLECTION_MAPPING": {
+                "en-live-106": 1695195389,
+                "en-live-110": 1695195389,
+                "en-live-115": 1695195392,
+                "en-live-119": 1695195389,
+                "en-live-12": 1695195389,
+                "en-live-120": 1695195392,
+                "en-live-121": 1695195392,
+                "en-live-122": 1695195389,
+                "en-live-124": 1695195392,
+                "en-live-125": 1695195392,
+                "en-live-127": 1695195389,
+                "en-live-134": 1696238465,
+                "en-live-135": 1695195392,
+                "en-live-137": 1695195392,
+                "en-live-139": 1695195389,
+                "en-live-144": 1695195389,
+                "en-live-146": 1695195392,
+                "en-live-148": 1695195392,
+                "en-live-149": 1695195392,
+                "en-live-150": 1695195389,
+                "en-live-153": 1695195389,
+                "en-live-154": 1695195389,
+                "en-live-156": 1695195389,
+                "en-live-157": 1695195392,
+                "en-live-159": 1695195392,
+                "en-live-168": 1695195392,
+                "en-live-175": 1695195392,
+                "en-live-176": 1698310545,
+                "en-live-177": 1695195389,
+                "en-live-178": 1696840310,
+                "en-live-179": 1698202076,
+                "en-live-188": 1695195389,
+                "en-live-205": 1695195392,
+                "en-live-207": 1695195389,
+                "en-live-208": 1695195389,
+                "en-live-212": 1695195392,
+                "en-live-213": 1695195389,
+                "en-live-22": 1695195392,
+                "en-live-225": 1697004074,
+                "en-live-226": 1695195392,
+                "en-live-227": 1695195392,
+                "en-live-23": 1695195392,
+                "en-live-232": 1695195389,
+                "en-live-24": 1695195392,
+                "en-live-247": 1695195389,
+                "en-live-25": 1695195389,
+                "en-live-251": 1695195392,
+                "en-live-252": 1695195389,
+                "en-live-26": 1695195389,
+                "en-live-262": 1695195392,
+                "en-live-264": 1695195392,
+                "en-live-266": 1695195392,
+                "en-live-267": 1695195389,
+                "en-live-274": 1695195389,
+                "en-live-28": 1620289785,
+                "en-live-281": 1695195392,
+                "en-live-284": 1695195389,
+                "en-live-286": 1695195392,
+                "en-live-289": 1695195392,
+                "en-live-293": 1695195392,
+                "en-live-309": 1695195389,
+                "en-live-313": 1695195392,
+                "en-live-315": 1695195389,
+                "en-live-327": 1697697091,
+                "en-live-331": 1695195392,
+                "en-live-34": 1695786333,
+                "en-live-347": 1695195389,
+                "en-live-35": 1697059662,
+                "en-live-353": 1695195389,
+                "en-live-356": 1698116448,
+                "en-live-359": 1695195392,
+                "en-live-36": 1695195389,
+                "en-live-37": 1695195389,
+                "en-live-371": 1634122248,
+                "en-live-38": 1695195392,
+                "en-live-381": 1695195389,
+                "en-live-382": 1695195392,
+                "en-live-39": 1695195389,
+                "en-live-390": 1695628088,
+                "en-live-391": 1695195389,
+                "en-live-4": 1695195392,
+                "en-live-41": 1695195389,
+                "en-live-410": 1695957270,
+                "en-live-421": 1695195392,
+                "en-live-435": 1695195389,
+                "en-live-439": 1695195392,
+                "en-live-44": 1695195389,
+                "en-live-444": 1695195389,
+                "en-live-45": 1695195392,
+                "en-live-451": 1695195389,
+                "en-live-454": 1695195392,
+                "en-live-456": 1695195389,
+                "en-live-46": 1695195389,
+                "en-live-460": 1695195392,
+                "en-live-465": 1695195392,
+                "en-live-479": 1695195392,
+                "en-live-485": 1695195392,
+                "en-live-486": 1695195392,
+                "en-live-492": 1695195389,
+                "en-live-5": 1695195392,
+                "en-live-508": 1695195392,
+                "en-live-516": 1695195389,
+                "en-live-52": 1695195389,
+                "en-live-529": 1695195389,
+                "en-live-53": 1695195392,
+                "en-live-533": 1695195392,
+                "en-live-539": 1695195389,
+                "en-live-54": 1697192683,
+                "en-live-543": 1695195392,
+                "en-live-544": 1695195392,
+                "en-live-546": 1695195392,
+                "en-live-55": 1695195392,
+                "en-live-57": 1695195389,
+                "en-live-572": 1695195389,
+                "en-live-575": 1695195389,
+                "en-live-576": 1695195392,
+                "en-live-58": 1697616593,
+                "en-live-59": 1695195392,
+                "en-live-594": 1695195392,
+                "en-live-6": 1695195392,
+                "en-live-60": 1695195389,
+                "en-live-600": 1695195389,
+                "en-live-61": 1695195392,
+                "en-live-619": 1695195389,
+                "en-live-629": 1695195389,
+                "en-live-63": 1695195392,
+                "en-live-64": 1695195392,
+                "en-live-65": 1695195389,
+                "en-live-7": 1698309907,
+                "en-live-70": 1698313172,
+                "en-live-71": 1695195392,
+                "en-live-73": 1635491828,
+                "en-live-74": 1695195392,
+                "en-live-76": 1697528153,
+                "en-live-8": 1637915690,
+                "en-live-84": 1695195392,
+                "en-live-89": 1695195389,
+                "en-live-94": 1695195389,
+                "en-live-95": 1695195392,
+                "en-live-96": 1695195392,
+                "en-live-97": 1695195389,
+                "en-live-99": 1695195389,
+                "id-live-106": 1695195389,
+                "id-live-110": 1695195389,
+                "id-live-115": 1695195392,
+                "id-live-119": 1695195389,
+                "id-live-12": 1695195389,
+                "id-live-120": 1695195392,
+                "id-live-121": 1695195392,
+                "id-live-122": 1695195389,
+                "id-live-124": 1695195392,
+                "id-live-125": 1695195392,
+                "id-live-127": 1695195389,
+                "id-live-134": 1696238465,
+                "id-live-135": 1695195392,
+                "id-live-137": 1695195392,
+                "id-live-139": 1695195389,
+                "id-live-144": 1695195389,
+                "id-live-146": 1695195392,
+                "id-live-148": 1695195392,
+                "id-live-149": 1695195392,
+                "id-live-150": 1695195389,
+                "id-live-153": 1695195389,
+                "id-live-154": 1695195389,
+                "id-live-156": 1695195389,
+                "id-live-157": 1695195392,
+                "id-live-159": 1695195392,
+                "id-live-168": 1695195392,
+                "id-live-175": 1695195392,
+                "id-live-176": 1698310545,
+                "id-live-177": 1695195389,
+                "id-live-178": 1696840310,
+                "id-live-179": 1698202076,
+                "id-live-188": 1695195389,
+                "id-live-205": 1695195392,
+                "id-live-207": 1695195389,
+                "id-live-208": 1695195389,
+                "id-live-212": 1695195392,
+                "id-live-213": 1695195389,
+                "id-live-22": 1695195392,
+                "id-live-225": 1697004074,
+                "id-live-226": 1695195392,
+                "id-live-227": 1695195392,
+                "id-live-23": 1695195392,
+                "id-live-232": 1695195389,
+                "id-live-24": 1695195392,
+                "id-live-247": 1695195389,
+                "id-live-25": 1695195389,
+                "id-live-251": 1695195392,
+                "id-live-252": 1695195389,
+                "id-live-26": 1695195389,
+                "id-live-262": 1695195392,
+                "id-live-264": 1695195392,
+                "id-live-266": 1695195392,
+                "id-live-267": 1695195389,
+                "id-live-274": 1695195389,
+                "id-live-28": 1620289785,
+                "id-live-281": 1695195392,
+                "id-live-284": 1695195389,
+                "id-live-286": 1695195392,
+                "id-live-289": 1695195392,
+                "id-live-293": 1695195392,
+                "id-live-309": 1695195389,
+                "id-live-313": 1695195392,
+                "id-live-315": 1695195389,
+                "id-live-327": 1697697091,
+                "id-live-331": 1695195392,
+                "id-live-34": 1695195392,
+                "id-live-347": 1695195389,
+                "id-live-35": 1697059662,
+                "id-live-353": 1695195389,
+                "id-live-356": 1698116448,
+                "id-live-359": 1695195392,
+                "id-live-36": 1695195389,
+                "id-live-37": 1695195389,
+                "id-live-371": 1634122248,
+                "id-live-38": 1695195392,
+                "id-live-381": 1695195389,
+                "id-live-382": 1695195392,
+                "id-live-39": 1695195389,
+                "id-live-390": 1695628088,
+                "id-live-391": 1695195389,
+                "id-live-4": 1695195392,
+                "id-live-41": 1695195389,
+                "id-live-410": 1695957270,
+                "id-live-421": 1695195392,
+                "id-live-435": 1695195389,
+                "id-live-439": 1695195392,
+                "id-live-44": 1695195389,
+                "id-live-444": 1695195389,
+                "id-live-45": 1695195392,
+                "id-live-451": 1695195389,
+                "id-live-454": 1695195392,
+                "id-live-456": 1695195389,
+                "id-live-46": 1695195389,
+                "id-live-460": 1695195392,
+                "id-live-465": 1695195392,
+                "id-live-479": 1695195392,
+                "id-live-485": 1695195392,
+                "id-live-486": 1695195392,
+                "id-live-492": 1695195389,
+                "id-live-5": 1695195392,
+                "id-live-508": 1695195392,
+                "id-live-516": 1695195389,
+                "id-live-52": 1695195389,
+                "id-live-529": 1695195389,
+                "id-live-53": 1695195392,
+                "id-live-533": 1695195392,
+                "id-live-539": 1695195389,
+                "id-live-54": 1697192683,
+                "id-live-543": 1695195392,
+                "id-live-544": 1695195392,
+                "id-live-546": 1695195392,
+                "id-live-55": 1695195392,
+                "id-live-57": 1695195389,
+                "id-live-572": 1695195389,
+                "id-live-575": 1695195389,
+                "id-live-576": 1695195392,
+                "id-live-58": 1697616593,
+                "id-live-59": 1695195392,
+                "id-live-594": 1695195392,
+                "id-live-6": 1695195392,
+                "id-live-60": 1695195389,
+                "id-live-600": 1695195389,
+                "id-live-61": 1695195392,
+                "id-live-619": 1695195389,
+                "id-live-629": 1695195389,
+                "id-live-63": 1695195392,
+                "id-live-64": 1695195392,
+                "id-live-65": 1695195389,
+                "id-live-7": 1698309907,
+                "id-live-70": 1698313172,
+                "id-live-71": 1695195392,
+                "id-live-73": 1635491828,
+                "id-live-74": 1695195392,
+                "id-live-76": 1697528153,
+                "id-live-8": 1637915690,
+                "id-live-84": 1695195392,
+                "id-live-89": 1695195389,
+                "id-live-94": 1695195389,
+                "id-live-95": 1695195392,
+                "id-live-96": 1695195392,
+                "id-live-97": 1695195389,
+                "id-live-99": 1695195389
+            },
+            "USER_STATIC_TOGGLE": {
+                "af_sap_sdk": true,
+                "af_sap_legacy": false,
+                "use_anti_crawler_api_protection_sdk": true,
+                "context_action_account_v2": false,
+                "standalone_security_sdk": true,
+                "standalone_fetch_utils": true,
+                "fetch_account_v2": false,
+                "fetch_account_v4": true,
+                "account_info_sync_fetch_server_pc": true,
+                "account_info_sync_fetch_server_rw": true,
+                "account_info_sync_fetch_server_lite": true,
+                "account_info_sync_fetch_client_pc": true,
+                "account_info_sync_fetch_client_rw": true,
+                "account_info_sync_fetch_client_lite": true,
+                "account_redux_invalid_server_state_report_pc": false,
+                "account_redux_invalid_server_state_report_rw": false,
+                "account_redux_invalid_server_state_report_lite": false,
+                "signup_otp_zalo_web": false,
+                "login_otp_zalo_web": false,
+                "authentication_bind_otp_zalo_web": false,
+                "otp_shared_service_otp_zalo_web": false,
+                "phone_number_format_v2": true,
+                "identity_and_account_micro_app_pilot_test": false
+            },
+            "VOUCHER_CARD_MANIFEST": {
+                "live": "v1.53.0",
+                "cdnUrl": "https://deo.shopeemobile.com/shopee/stm-sg-live/44951/asset-ID-live.85497a3b102e2df9f9867b72a68c9bbe.json"
+            }
+        };
+        /*__asset_override__*/
+    </script>
+    <script>
+        !function () {
+            if (self.document) {
+                var e = self.document.createElement("script")
+                    , t = "noModule" in e
+                    , n = t;
+                Object.defineProperty(self, "SUPPORT_MODULE", {
+                    get: function () {
+                        return n
+                    },
+                    configurable: !1,
+                    enumerable: !1
+                }),
+                    !t && "onbeforeload" in e && (self.document.addEventListener("beforeload", (function (t) {
+                        if (t.target === e)
+                            n = !0;
+                        else if (!t.target.hasAttribute("nomodule") || !n)
+                            return;
+                        t.preventDefault()
+                    }
+                    ), !0),
+                        e.type = "module",
+                        e.src = ".",
+                        self.document.head.appendChild(e),
+                        e.remove())
+            }
+        }();
+    </script>
+    <script nomodule>
+        document.documentMode <= 11 && location.replace("/unsupported.html")
+    </script>
+    <script>
+        !function () {
+            var A = ["lossy", "lossless", "alpha", "animation"];
+            function t(A, t) {
+                var n = new Image;
+                n.onload = function () {
+                    var o = n.width > 0 && n.height > 0;
+                    t(A, o)
+                }
+                    ,
+                    n.onerror = function () {
+                        t(A, !1)
+                    }
+                    ,
+                    n.src = "data:image/webp;base64," + {
+                        lossy: "UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
+                        lossless: "UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",
+                        alpha: "UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",
+                        animation: "UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"
+                    }[A]
+            }
+            function n(t, n) {
+                var o = function (t) {
+                    var n = {};
+                    if (!t || 1 !== t.length)
+                        return n;
+                    for (var o = parseInt(t, 16).toString(2); o.length < 4;)
+                        o = "0" + o;
+                    for (var s = 0; s < A.length; s++)
+                        n[A[s]] = "1" === o[s];
+                    return n
+                }(sessionStorage.getItem("shopee_webp_support"));
+                o[t] = n,
+                    sessionStorage.setItem("shopee_webp_support", function (t) {
+                        var n = "0000";
+                        if (!(t instanceof Object))
+                            return n;
+                        for (var o = 0; o < A.length; o++)
+                            !0 === t[A[o]] && (n = n.substring(0, o) + "1" + n.substring(o + 1));
+                        return parseInt(n, 2).toString(16)
+                    }(o))
+            }
+            function o(A, t) {
+                try {
+                    n(A, t)
+                } catch (A) { }
+            }
+            sessionStorage.getItem("shopee_webp_support") || (t("lossy", o),
+                t("lossless", o),
+                t("alpha", o),
+                t("animation", o))
+        }();
+    </script>
+    <script nomodule
+        src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill-legacy.11214b53756c326b.legacy.js"></script>
+    <script>
+        !function () {
+            var t = document && document.querySelector('script[type^="text/shopee-short-url-checked"]')
+                , e = !(!t || "1" !== t.textContent)
+                , o = location && location.origin || "";
+            function a() {
+                document && document.body && (document.body.style.visibility = "visible")
+            }
+            function n(t) {
+                var e = function (t) {
+                    var e = document.createElement("a");
+                    return e.href = t,
+                    {
+                        pathname: e.pathname,
+                        hash: e.hash,
+                        search: e.search,
+                        protocol: e.protocol
+                    }
+                }(t)
+                    , n = e.pathname
+                    , r = e.hash;
+                if ("/" !== n && !function (t) {
+                    return "/supermarket" === t || "/supermarket/" === t
+                }(n) && function (t) {
+                    return 1 === t.split("/").filter(Boolean).length
+                }(n) && n.length < 256 && "" === r && 0 === n.lastIndexOf("/")) {
+                    document && document.body && (document.body.style.visibility = "hidden"),
+                        setTimeout(a, 5e3);
+                    var i = new XMLHttpRequest;
+                    i.open("GET", o + "/api/v4/pages/is_short_url/?path=" + n.replace("/", "")),
+                        i.setRequestHeader("Content-Type", "application/json"),
+                        i.setRequestHeader("Accept", "application/json"),
+                        i.onreadystatechange = function () {
+                            if (4 === this.readyState)
+                                if (200 === this.status) {
+                                    var t = JSON.parse(this.responseText);
+                                    t && t.data && t.data.url ? (console.log("Redirecting via short url to: res.data.url"),
+                                        location.href = t.data.url) : a()
+                                } else
+                                    a()
+                        }
+                        ,
+                        i.send()
+                }
+            }
+            var r = window.history.pushState;
+            window.history.pushState = function () {
+                var t = arguments[2];
+                t && n(t),
+                    r.apply(history, arguments)
+            }
+                ;
+            var i = window.history.replaceState;
+            window.history.replaceState = function () {
+                var t = arguments[2];
+                t && n(t),
+                    i.apply(history, arguments)
+            }
+                ,
+                e || n(location.href)
+        }();
+    </script>
+    <script>
+        if (window.ga = window.ga || function () {
+            (ga.q = ga.q || []).push(arguments)
+        }
+            ,
+            ga.l = +new Date,
+            window.PerformanceObserver)
+            try {
+                var observer = new window.PerformanceObserver((function (e) {
+                    for (var r = e.getEntries(), n = 0; n < r.length; n++) {
+                        var a = r[n]
+                            , i = a.name
+                            , t = Math.round(a.startTime + a.duration);
+                        ga("send", {
+                            hitType: "timing",
+                            timingCategory: "Performance Metrics",
+                            timingVar: i,
+                            timingValue: t
+                        })
+                    }
+                }
+                ));
+                observer.observe({
+                    entryTypes: ["paint"]
+                })
+            } catch (e) { }
+    </script>
+    <script>
+        "loading" in HTMLImageElement.prototype ? document.addEventListener("DOMContentLoaded", (function () {
+            document.querySelectorAll("img[loading].lazyload").forEach((function (e) {
+                e.dataset.src && (e.src = e.dataset.src),
+                    e.dataset.srcset && (e.srcset = e.dataset.srcset)
+            }
+            ))
+        }
+        )) : document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.6eeeee64c6017caa.js"><\/script>')
+    </script>
+    <script>
+        window.MutationObserver || document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.909f7922f04e46f7.js"><\/script>')
+    </script>
+    <script>
+        "IntersectionObserver" in window && "IntersectionObserverEntry" in window && "intersectionRatio" in window.IntersectionObserverEntry.prototype && "isIntersecting" in window.IntersectionObserverEntry.prototype || document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.e74248e871a636a1.js"><\/script>')
+    </script>
+    <script>
+        !function () {
+            var e = document.createElement("div").style;
+            e.setProperty && e.setProperty("--x", "x"),
+                e.getPropertyValue && "x" === e.getPropertyValue("--x") || (document.write('<script type="text/javascript" src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/polyfill.0b761ff65aca5425.js"><\/script>'),
+                    document.write("<script>window.cssVars({preserveVars:!0,watch:!0});<\/script>"))
+        }()
+    </script>
+    <link type="application/opensearchdescription+xml" rel="search"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/a4630d61a6f6ec98fe8b86c45d496edf.xml">
+    <link rel="dns-prefetch" href="//down-id.img.susercontent.com/">
+    <link rel="dns-prefetch" href="//deo.shopeemobile.com/shopee/">
+    <link rel="dns-prefetch" href="//cv.shopee.co.id/">
+    <script src="https://deo.shopeemobile.com/shopee/shopee-trackingsdk-live-sg/index.js"></script>
+    <script id="gtm-script" data-locale="id" data-gtm-id="GTM-WJZQSJF">
+        !function (t, e, a, n) {
+            t[n] = [];
+            var o = ["PL", "ES", "BR"].indexOf(__LOCALE__) >= 0
+                , r = o ? "denied" : "granted";
+            !function () {
+                dataLayer.push(arguments)
+            }("consent", "default", {
+                consent_analytical: r,
+                consent_functional: r,
+                consent_advertising: r,
+                consent_thirdparty_google: r,
+                consent_thirdparty_tiktok: r,
+                wait_for_update: o ? 15e3 : 0
+            });
+            var d = document.currentScript || document.getElementById("gtm-script");
+            if (d) {
+                var i = d.getAttribute("data-locale")
+                    , c = d.getAttribute("data-gtm-id")
+                    , s = d.getAttribute("data-delay-load")
+                    , u = ""
+                    , g = 0;
+                s && (u = "delay",
+                    g = 5e3),
+                    t[n] = t[n] || [];
+                var m = Date.now()
+                    , _ = {
+                        "gtm.start": m,
+                        event: "gtm.js",
+                        country: i
+                    };
+                u && (_.userGroup = u),
+                    t[n].push(_);
+                var l = !1;
+                t.__shopeeLoadGTM = function () {
+                    l || (l = !0,
+                        g = Math.max(0, Math.min(g, g - (Date.now() - m))),
+                        setTimeout((function () {
+                            var t = e.getElementsByTagName(a)[0]
+                                , n = e.createElement(a);
+                            n.async = !0,
+                                n.src = "https://www.googletagmanager.com/gtm.js?id=" + c,
+                                t.parentNode.insertBefore(n, t)
+                        }
+                        ), g))
+                }
+                    ,
+                    o || t.__shopeeLoadGTM()
+            }
+        }(window, document, "script", "dataLayer");
+    </script>
+    <link rel="stylesheet" data-modern="true"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7317a03dc6dd3324.css">
+    <link rel="stylesheet" data-modern="true"
+        href="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.227c6e3c1bdc6350.css">
+    <script type="text/shopee-page-manifest">
+            {"pcmall-paymentfe":"https://deo.shopeemobile.com/shopee/stm-sg-live/2260/asset-ID-live.77094fe07e4d928789bdd1d2bbbc9bbc.json","pcmall-cart":"https://deo.shopeemobile.com/shopee/stm-sg-live/2360/asset-ID-live.521ae4cc2079abcb10a007d1431f85ed.json","pcmall-coinsrewardpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/4698/asset-ID-live.a31c277a84b40ee3100eb4c35a6fbddc.json","pcmall-shopmicrofe":"https://deo.shopeemobile.com/shopee/stm-sg-live/4785/asset-ID-live.3fbea998a413a82268cec9c20644a62b.json","pcmall-bundledeal":"https://deo.shopeemobile.com/shopee/stm-sg-live/6955/asset-ID-live.d2bd8a2881830a9183d760e8b34f6a06.json","pcmall-flashsale":"https://deo.shopeemobile.com/shopee/stm-sg-live/7304/asset-ID-live.182057070dc6dcdf9384fe917e506c48.json","pcmall-flashsale-entry":"https://deo.shopeemobile.com/shopee/stm-sg-live/7438/asset-ID-live.42d018174d615d995716e1a8b8547323.json","pcmall-flashsale-mart-entry":"https://deo.shopeemobile.com/shopee/stm-sg-live/7571/asset-ID-live.d7643ec5093ca0697e628f96077fa686.json","pcmall-flashsale-mart-landing":"https://deo.shopeemobile.com/shopee/stm-sg-live/7633/asset-ID-live.fb4384aa8425539a69b05e60b873305f.json","pcmall-addondeal-aod":"https://deo.shopeemobile.com/shopee/stm-sg-live/13684/asset-ID-live.af771fd3114ebd7c809d96df9d94d0f7.json","pcmall-sclp":"https://deo.shopeemobile.com/shopee/stm-sg-live/webfe-rp-assets/15239/asset-ID-live.987041261d76119910a5e85c02c4c8b4.json","pcmall-dailycheckin":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dailycheckin/main.f26f8d9a517dbe321c5f.css","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/dailycheckin/main.70613cebaa6326461115.js"],"pcmall-addondeal-pwp":"https://deo.shopeemobile.com/shopee/stm-sg-live/16709/asset-ID-live.6c21725ff5d852b8914a7921f12de422.json","pcmall-addondeal-pwg":"https://deo.shopeemobile.com/shopee/stm-sg-live/16838/asset-ID-live.bce5ecc5addb4b495dfe2f23a716c01f.json","pcmall-orderlist":"https://deo.shopeemobile.com/shopee/stm-sg-live/20180/asset-ID-live.af78d4b5329ac75e450e72224b2837af.json","pcmall-pcpagevoucherdetail":"https://deo.shopeemobile.com/shopee/stm-sg-live/20918/asset-ID-live.a615af065290fc440eca9e9bdffa3e8c.json","pcmall-voucherwallet":"https://deo.shopeemobile.com/shopee/stm-sg-live/21750/asset-ID-live.547a80364cc68d19b9769eead1c1231b.json","pcmall-recommendshopvoucherlistpc":"https://deo.shopeemobile.com/shopee/stm-sg-live/21836/asset-ID-live.a29fb6656b2a617ae406f9ff79254d81.json","pcmall-recommendcartvoucherspc":"https://deo.shopeemobile.com/shopee/stm-sg-live/21934/asset-ID-live.85330d1a85d17fbe765265c80b0b657d.json","pcmall-voucherwalletmodalpc":"https://deo.shopeemobile.com/shopee/stm-sg-live/22109/asset-ID-live.2c05719885aa3c49093877a849ca9b98.json","pcmall-voucherproductfocusedui":"https://deo.shopeemobile.com/shopee/stm-sg-live/22199/asset-ID-live.038d1b062b11f9eaedb49faea202a7f5.json","pcmall-intermediate":"https://deo.shopeemobile.com/shopee/stm-sg-live/webfe-rp-assets/22387/asset-ID-live.e03058216debe98957a13058fd654306.json","pcmall-sellervoucherlist":"https://deo.shopeemobile.com/shopee/stm-sg-live/22509/asset-ID-live.764bd77c9fd26143e6d0f33990af72bd.json","pcmall-sellervoucher":"https://deo.shopeemobile.com/shopee/stm-sg-live/22593/asset-ID-live.5fbfb518361c70bd757f179f0a44b8e0.json","pcmall-productshopvouchers":"https://deo.shopeemobile.com/shopee/stm-sg-live/22685/asset-ID-live.295b90aaedf0284fad0f8486794182c3.json","pcmall-productshopvoucher":"https://deo.shopeemobile.com/shopee/stm-sg-live/22776/asset-ID-live.399f99992f797f2bf6fac052a69494b2.json","pcmall-rcmd-cart-ymal":"https://deo.shopeemobile.com/shopee/stm-sg-live/22964/asset-ID-live.bca22ed0605b43e98be2a916ff59db16.json","pcmall-homepage":"https://deo.shopeemobile.com/shopee/stm-sg-live/23045/asset-ID-live.4448bc66a7336cec6a1520537e8d572e.json","pcmall-shoprating":"https://deo.shopeemobile.com/shopee/stm-sg-live/23325/asset-ID-live.c032a5f6abd7905bfd72ca70ba432df3.json","pcmall-voucherwalletvoucherpreview":"https://deo.shopeemobile.com/shopee/stm-sg-live/23587/asset-ID-live.4f263fe66aeb0ef866213863ba8a6f00.json","pcmall-microsite":"https://deo.shopeemobile.com/shopee/stm-sg-live/24481/asset-ID-live.290cc31bc28be0e177281a8f8f620a01.json","pcmall-rcmd-cart-ymal-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/24772/asset-ID-live.0cf0e0c6fa36fa9269519ed1b31b8ee9.json","pcmall-categorypage":"https://deo.shopeemobile.com/shopee/stm-sg-live/25514/asset-ID-live.ac0d71508acd57d77898c07d0d80628d.json","pcmall-useraccount":"https://deo.shopeemobile.com/shopee/stm-sg-live/27949/asset-ID-live.c08a419b18a15c1396dff5b278ca5840.json","pcmall-checkout":"https://deo.shopeemobile.com/shopee/stm-sg-live/28149/asset-ID-live.cd58766f92774dfeaade7b50f57865eb.json","pcmall-casedispute":"https://deo.shopeemobile.com/shopee/stm-sg-live//30266/asset-ID-live.57a9613831c5a62f6714207b153eb783.json","pcmall-return":"https://deo.shopeemobile.com/shopee/stm-sg-live/30560/asset-ID-live.3729b319a751ec1718f18487b9f4f73d.json","pcmall-formmanagement":"https://deo.shopeemobile.com/shopee/stm-sg-live/30653/asset-ID-live.39ef58c9a72da98ff0834d2ebde798d5.json","pcmall-ebcomponents-quiz":"https://deo.shopeemobile.com/shopee/stm-sg-live/30945/asset-ID-live.d41cc550a3b4f5c5cda4cd22b23e126f.json","pcmall-ebcomponents-voting":"https://deo.shopeemobile.com/shopee/stm-sg-live/32093/asset-ID-live.455e1b51d5f249487c3dc9db573a5430.json","pcmall-coins":"https://deo.shopeemobile.com/shopee/stm-sg-live/32478/asset-ID-live.759a85b06ddc3f79af16104728ac8197.json","pcmall-productdetailspage":"https://deo.shopeemobile.com/shopee/stm-sg-live/32952/asset-ID-live.e41e06828288d02317c4102ef5109c37.json","pcmall-rcmd-flash-sale-sold-out-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/33309/asset-ID-live.d973acb84e49a94e439bd0d92a293bea.json","pcmall-rcmd-pdp-ftss":"https://deo.shopeemobile.com/shopee/stm-sg-live/33395/asset-ID-live.66d24037d54c0d50e43cac05771dc404.json","pcmall-rcmd-pdp-ymal":"https://deo.shopeemobile.com/shopee/stm-sg-live/33497/asset-ID-live.9246656ef543b73246a36f830b507845.json","pcmall-shopcustompage":"https://deo.shopeemobile.com/shopee/stm-sg-live//34072/asset-ID-live.b617fbed5ec254f511bbdab49c948828.json","pcmall-returnevidence":"https://deo.shopeemobile.com/shopee/stm-sg-live/34267/asset-ID-live.de8a6fc6fc4e7a184dc8358d20ec33ef.json","pcmall-ebcomponents-mb":"https://deo.shopeemobile.com/shopee/stm-sg-live/34452/asset-ID-live.7c32c56430732e2579e37bcd6992e285.json","pcmall-mart-categorylandingpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/37143/asset-ID-live.b761a702e626081edcc1c7feca1d0a26.json","pcmall-mart-dealspage":"https://deo.shopeemobile.com/shopee/stm-sg-live/37336/asset-ID-live.259cb7fd4ecd2a02b0424c8b0029adfe.json","pcmall-mart-homepage":"https://deo.shopeemobile.com/shopee/stm-sg-live/37445/asset-ID-live.6a931174a6d6b4a6d2497d38d6c18aba.json","pcmall-rcmd-mart-recommendation-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/38496/asset-ID-live.d1752bbbccd8f25c6233ec929bda99cf.json","pcmall-rcmd-mart-recommendation-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/38595/asset-ID-live.cbdf7bd9d1234afe08ff8022506046f4.json","pcmall-rcmd-mart-buy-again-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/39078/asset-ID-live.f2866728460c1ad9835b40fa2ae3bbc2.json","pcmall-rcmd-mart-buy-again-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/39297/asset-ID-live.8b5549bb3e096471a892f3eda0b2b82f.json","pcmall-malllanding":"https://deo.shopeemobile.com/shopee/stm-sg-live/39651/asset-ID-live.53c34b32ebce9ca1e1d84209f296168e.json","pcmall-mallbrands":"https://deo.shopeemobile.com/shopee/stm-sg-live/39749/asset-ID-live.dcbb85df9084cba9fab0e2cf8d1bc9f6.json","pcmall-crmpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/39847/asset-ID-live.fbfe6643819684a96176f984e2a7cc2a.json","pcmall-rcmd-home-top-products-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/40399/asset-ID-live.c6feb53bdf9ae5d546cc1db54aff9778.json","pcmall-rcmd-home-top-products-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/40488/asset-ID-live.9a9f18e42b511061ee59406e51ee8b5e.json","pcmall-rcmd-pdp-ftss-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/40693/asset-ID-live.6ac8b5f49b9c767b156ae60b924235b4.json","pcmall-rcmd-pdp-ymal-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/41069/asset-ID-live.2b7dc7a469d1d9d2e4f3307e5227e4f4.json","pcmall-productrating":"https://deo.shopeemobile.com/shopee/stm-sg-live/41983/asset-ID-live.48e65601b72353398307d9570981274e.json","pcmall-myratingpc":"https://deo.shopeemobile.com/shopee/stm-sg-live/42463/asset-ID-live.06f16a132fce3a35d2da9ba237064cab.json","pcmall-mart-voucherlandingpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/42657/asset-ID-live.6beb4de5e5bdeffe13c0b0d5350b3dcd.json","pcmall-rcmd-fsp-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/42933/asset-ID-live.edea2a495504cc9996f42017bb37c819.json","pcmall-buyerrating":"https://deo.shopeemobile.com/shopee/stm-sg-live/51388/asset-ID-live.ed18dbb9c71df74661fcd3a473961ee2.json","pcmall-ratingorder":"https://deo.shopeemobile.com/shopee/stm-sg-live/51494/asset-ID-live.883b1bef75d893b34d35368af1b1aac1.json","pcmall-captcha":"https://deo.shopeemobile.com/shopee/stm-sg-live/52013/asset-ID-live.ad5a5d5bb6087f19987a2af46571d4fd.json","pcmall-dd-landing-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/52760/asset-ID-live.a5ae24b798870e72f0c5056081814e64.json","pcmall-dd-home-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/52904/asset-ID-live.d4c3bd37d0f7e9a8e61a6c077cd4e79d.json","pcmall-rcmd-mall-just-for-you-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/53046/asset-ID-live.e1afddbf5f8abae0de7a7ee9a6e9d108.json","pcmall-rcmd-mall-just-for-you-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/53132/asset-ID-live.d3d0fd2c2b2e73fa175e24d8294e7616.json","pcmall-rcmd-mall-popular-products-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/53218/asset-ID-live.37f23b8bf954eb7072614e68ac97d952.json","pcmall-collectionfe-productcollection":"https://deo.shopeemobile.com/shopee/stm-sg-live/53500/asset-ID-live.f1d0ea12b57462c19f978db7cd3d36a7.json","pcmall-collectionfe-product-clp":"https://deo.shopeemobile.com/shopee/stm-sg-live/53694/asset-ID-live.263b19fd7bb9240c08340d474dc41aeb.json","pcmall-collectionfe-shop-clp":"https://deo.shopeemobile.com/shopee/stm-sg-live/53793/asset-ID-live.72b4f1040e4ac34b90e5b8ade5f628ac.json","pcmall-collectionfe-entry-clp":"https://deo.shopeemobile.com/shopee/stm-sg-live/53908/asset-ID-live.813477b87408adb7cd2d26a552e39745.json","pcmall-collectionfe-allcampaigns":"https://deo.shopeemobile.com/shopee/stm-sg-live/54465/asset-ID-live.39fa3cb02002ec73da176bdb1a671e3a.json","pcmall-antifraudverifylink":"https://deo.shopeemobile.com/shopee/stm-sg-live/54844/asset-ID-live.d1e83383819744ce97669a0cc3246f07.json","pcmall-antifraudverifyqr":"https://deo.shopeemobile.com/shopee/stm-sg-live/54899/asset-ID-live.d62c69fba57337dee9e6ebf739840027.json","pcmall-antifraudverifyemaillink":"https://deo.shopeemobile.com/shopee/stm-sg-live/55084/asset-ID-live.c0e5c8123c29c96979a78cc48ad96952.json","pcmall-antifraudivs":"https://deo.shopeemobile.com/shopee/stm-sg-live/55230/asset-ID-live.9cdad10613ed764e167a9b45b123ff2f.json","pcmall-antifraudverifylinkreceiver":"https://deo.shopeemobile.com/shopee/stm-sg-live/55429/asset-ID-live.498687153109dbb468e9393889e3f6a2.json","pcmall-antifraudverifyemaillinkreceiver":{"version":1,"assets":{},"metaAppDetails":{},"legacy":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.1dfa51e717bde247bf37.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/455.8ccb04afe6b1dc3cbbe8.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/974.f586da6bbf93eadc7d5a.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/333.4751b24852acd70cdc0f.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/810.de519c29058f81b21864.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/781.0e642d1d7f16d845cee6.legacy.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.84702a511c0e795d2454.legacy.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.2d6d45d1b72791046af5.legacy.css"]},"modern":{"js":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/runtime.7a3354b284db30839ffb.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/455.b50d5976284753c7d948.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/685.67237e04acd9afd3ec61.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/974.ae2d57a0f5bebbfff7f1.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/333.60796e14e99ac112b150.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/769.a9204d8096ff49666c83.js","https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.17935ee68a84d1055749.js"],"css":["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/antifraudivs/pcmall-antifraudverifyemaillinkreceiver.7eeb5635788e67e308b0.css"]}},"pcmall-categoryfe":"https://deo.shopeemobile.com/shopee/stm-sg-live/57645/asset-ID-live.6b2da14cf01315978034afc47a2edd81.json","pcmall-returnrequest":"https://deo.shopeemobile.com/shopee/stm-sg-live/59664/asset-ID-live.df41b408124cbfda3c2731993b058c1c.json","pcmall-homepagefe":"https://deo.shopeemobile.com/shopee/stm-sg-live/59963/asset-ID-live.16423cd4382ca75fd8b4f1d94f72eb17.json","pcmall-search-mart-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/60358/asset-ID-live.a7040a9018ca3c70c0583ffb02f737fa.json","pcmall-micrositefe":"https://deo.shopeemobile.com/shopee/stm-sg-live/60536/asset-ID-live.d5e2617f3ad477e8d6ac712d209d17dc.json","pcmall-flashsalesoldout":"https://deo.shopeemobile.com/shopee/stm-sg-live/31130/asset-ID-live.57a137c4103449f24a9e79d58ead9398.json","pcmall-voucherlandingpagevoucher":"https://deo.shopeemobile.com/shopee/stm-sg-live/43427/asset-ID-live.0d480eef9ca3ac472bd74f1f00470d8f.json","pcmall-cartsellervoucherspopup":"https://deo.shopeemobile.com/shopee/stm-sg-live/43324/asset-ID-live.f5bf603a0f99a47b69130f027997f589.json","pcmall-cancellation":"https://deo.shopeemobile.com/shopee/stm-sg-live/45062/asset-ID-live.9e730b4d122f5c6755fa744a6cbbefd2.json","VOUCHER_CARD_MANIFEST":"https://deo.shopeemobile.com/shopee/stm-sg-live/44951/asset-ID-live.85497a3b102e2df9f9867b72a68c9bbe.json","pcmall-search-user-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/44375/asset-ID-live.485323aa7471faf1df26b39a77ed3b1e.json","pcmall-search-srp-user":"https://deo.shopeemobile.com/shopee/stm-sg-live/44187/asset-ID-live.c23b5c5098527aa03c6cfe5ca237ed8f.json","pcmall-orderdetail":"https://deo.shopeemobile.com/shopee/stm-sg-live/47368/asset-ID-live.79a3a779c03d2c767648916d2609aeec.json","pcmall-vouchermarthomepage":"https://deo.shopeemobile.com/shopee/stm-sg-live/47960/asset-ID-live.9f3793a4ba3100edd038feaa9688e949.json","pcmall-antifrauderror":"https://deo.shopeemobile.com/shopee/stm-sg-live/47170/asset-ID-live.1653a83926eb49ecaf2e40013f8ed65a.json","user-microfe-account-desktop-demo":"https://deo.shopeemobile.com/shopee/stm-sg-live/48036/asset-ID-live.5d6c0b75f8146077c27fa25043f6f575.json","pcmall-vouchermartlandingpage":"https://deo.shopeemobile.com/shopee/stm-sg-live/49213/asset-ID-live.d0121c755896d9cd66be55d67a2bb05c.json","user-microfe-identity-desktop-demo-page-2":"https://deo.shopeemobile.com/shopee/stm-sg-live/49955/asset-ID-live.e270ebc844018f07a025377743d9cde6.json","user-microfe-identity-desktop-demo-page":"https://deo.shopeemobile.com/shopee/stm-sg-live/49860/asset-ID-live.a69d891cecebf0780b668ea43437b3ac.json","user-microfe-account-desktop-demo-2":"https://deo.shopeemobile.com/shopee/stm-sg-live/50146/asset-ID-live.72edcbd0ec7f4e6b283e2a9c99e01628.json","pcmall-rcmd-cart-fsp-module":"https://deo.shopeemobile.com/shopee/stm-sg-live/50735/asset-ID-live.8e36e438495b31165a374954a108994c.json","pcmall-anticrawler":"https://deo.shopeemobile.com/shopee/stm-sg-live/50819/asset-ID-live.4c1c81c86816fc7be5800d0709b92220.json","user-microfe-identity-desktop-noti-email-subscription-center":"https://deo.shopeemobile.com/shopee/stm-sg-live/51014/asset-ID-live.6115af718aa5b272ac6d83ea04417e76.json"}
+        </script>
+</head>
+
+<body>
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJZQSJF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <div id="main"></div>
+    <div id="modal"></div>
+    <script type="module"
+        src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.902e0ef0a1452cc3.js"></script>
+    <script type="module"
+        src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.7e78c1164311d8d2.js"></script>
+    <script type="module"
+        src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.e9b98037bb78a8bd.js"></script>
+    <script nomodule>
+        function loadStyleLink(e) {
+            var l = document.head || document.getElementsByTagName("head")[0]
+                , t = document.createElement("link");
+            t.rel = "stylesheet",
+                t.type = "text/css",
+                t.href = e,
+                l.appendChild(t)
+        }
+        if (!SUPPORT_MODULE) {
+            for (var links = ["https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.b5b4568e6a53860b.legacy.css", "https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.1b9fdebe126541ee.legacy.css"], i = 0; i < links.length; i++)
+                loadStyleLink(links[i]);
+            try {
+                document.querySelectorAll("[data-modern]").forEach((function (e) {
+                    e.parentNode.removeChild(e)
+                }
+                ))
+            } catch (e) { }
+        }
+    </script>
+    <script
+        src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/webpack-runtime.c71425ba6f6d40a4.legacy.js"
+        defer="defer" nomodule></script>
+    <script src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/1613.e4f76ceba8e855df.legacy.js"
+        defer="defer" nomodule></script>
+    <script src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/bundle.7c9648afe9a8e965.legacy.js"
+        defer="defer" nomodule></script>
+</body>
+
+</html>
